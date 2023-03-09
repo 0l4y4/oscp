@@ -7,7 +7,7 @@ FTP (File Transfer Protocol) is a network protocol for transmitting files betwee
 
 There are several different ways an FTP server and client software can conduct a file transfer using FTP:
 
-- **Anonymous FTP**. This is the most basic form of FTP. It provides support for data transfers without encrypting data or using a username and password. It's most commonly used for download of material that is allowed for unrestricted distribution. It works on port
+- **Anonymous FTP**. This is the most basic form of FTP. It provides support for data transfers without encrypting data or using a username and password. It's most commonly used for download of material that is allowed for unrestricted distribution.
 - **Password-protected FTP**. This is also a basic FTP service, but it requires the use of a username and password, though the service might not be encrypted or secure. It also works on port 21.
 - **FTP Secure (FTPS)**. Sometimes referred to as FTP Secure Sockets Layer (FTP-SSL), this approach enables implicit Transport Layer Security (TLS) as soon as an FTP connection is established. FTPS was initially used to help enable a more secure form of FTP data transfer. It typically defaults to using port 990.
 - **FTP over explicit SSL/TLS (FTPES)**. This approach enables explicit TLS support by upgrading an FTP connection over port 21 to an encrypted connection. This is a commonly used approach by web and file sharing services to enable secure file transfers.
