@@ -31,11 +31,60 @@ As the modern internet began to take shape, the FTP specification underwent seve
 In 1997, RFC 959 was updated with new capabilities defined in RFC 2228 to provide security capabilities. Two years later, FTP was updated with RFC 2428 to support the IPv6 protocol.
 FTP clients
 
+## The FTP Command
 
+Connecting:
 ```bash
-ftp 10.10.10.3
+ftp [IP]
+```
+
+Listing:
+```bash
 ls
-dir
-put allPorts
-get file
+```
+
+Transferring files to the local computer:
+```bash
+get [file]
+```
+
+Transferring multiple files to the local computer:
+```bash
+mget [*.pdf]
+```
+
+Uploading files:
+```bash
+put [file]
+```
+
+Uploading multiple files:
+```bash
+mput [*.pdf]
+```
+
+Creating directories:
+```bash
+mkdir [name]
+```
+
+Changing directory:
+```bash
+cd [directory]
+```
+
+Current directory:
+```bash
+pwd
+```
+
+Renaming file:
+```bash
+rename [current file] [new file]
+```
+
+Deleting files:
+```bash
+delete [file]
+mdelete [*.pdf]
 ```
